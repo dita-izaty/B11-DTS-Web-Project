@@ -195,7 +195,7 @@ header ul li a {
   color: black;
 }
 .service-icon img {
-  width: 100px;
+  width: auto;
   height: 150px;
   object-fit: cover;
 }
