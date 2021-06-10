@@ -1,36 +1,28 @@
 /* 1000px */
 @media (max-width: 1040px) {
-  .top-wrapper .imgBox,
-  .top-wrapper .imgBox img {
+  .imgBox img {
     display: none;
   }
-
   .top-wrapper {
     justify-content: center;
   }
-
-  .top-wrapper .textBox {
+  .textBox {
     text-align: center;
   }
-
   .sns {
     display: none;
   }
-
   .services {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .service-wrapper {
     height: 100%;
   }
-
   .service {
     width: 100%;
   }
-  
   @keyframes example1 {
   0% {
     background-color: #c3f8e2;
@@ -60,88 +52,75 @@
  }
 }
 
-
-
 @media (max-width: 750px) {
   header {
     flex-direction: column;
   }
-
   .blob {
     display: none;
   }
-
   section {
     padding: 20px;
   }
-
   section h2 {
     margin-top: 150px;
   }
-
   .top-wrapper {
     justify-content: safe;
   }
-
-  .top-wrapper .textBox h2 {
+  .textBox h2 {
     font-size: 2em;
   }
-
-  .top-wrapper .textBox p {
+  .textBox p {
     color: #333;
   }
-
   .container {
     margin: 0px;
   }
-
   .service-wrapper {
     height: 100%;
     width: 100%;
   }
-
   textarea {
     width: 90%;
   }
-  
   .mover {
-  width: 20px;
-  height: 20px;
-  background-color: #c3f8e2;
-  position: relative;
-  animation-name: example1;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
+    width: 20px;
+    height: 20px;
+    background-color: #c3f8e2;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
-
 @keyframes example1 {
-  0% {
-    background-color: #c3f8e2;
-    left: 0px;
-    top: 0px;
+    0% {
+      background-color: #c3f8e2;
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      background-color: #59c497c5;
+      left: 330px;
+      top: 0px;
+    }
+    50% {
+      background-color: #24a7709d;
+      left: 330px;
+      top: 330px;
+    }
+    75% {
+      background-color: #017243;
+      left: 0px;
+      top: 330px;
+    }
+    100% {
+      background-color: #c3f8e2;
+      left: 0px;
+      top: 0px;
+    }
   }
-  25% {
-    background-color: #59c497c5;
-    left: 330px;
-    top: 0px;
-  }
-  50% {
-    background-color: #24a7709d;
-    left: 330px;
-    top: 330px;
-  }
-  75% {
-    background-color: #017243;
-    left: 0px;
-    top: 330px;
-  }
-  100% {
-    background-color: #c3f8e2;
-    left: 0px;
-    top: 0px;
-  }
- }
 }
 
