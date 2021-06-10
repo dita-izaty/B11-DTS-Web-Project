@@ -30,9 +30,8 @@
   .service {
     width: 100%;
   }
-}
-
-@keyframes example1 {
+  
+  @keyframes example1 {
   0% {
     background-color: #c3f8e2;
     left: 0px;
@@ -58,7 +57,10 @@
     left: 0px;
     top: 0px;
   }
+ }
 }
+
+
 
 @media (max-width: 750px) {
   header {
@@ -101,9 +103,8 @@
   textarea {
     width: 90%;
   }
-}
-
-.mover {
+  
+  .mover {
   width: 20px;
   height: 20px;
   background-color: #c3f8e2;
@@ -141,7 +142,6 @@
     left: 0px;
     top: 0px;
   }
+ }
 }
-
-
 
