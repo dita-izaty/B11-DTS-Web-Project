@@ -6,11 +6,9 @@
   box-sizing: border-box;
   font-family: "Poppins", "sans-serif";
 }
-
 html {
   width: 100%;
 }
-
 section {
   width: 100%;
   position: relative;
@@ -20,7 +18,6 @@ section {
   background: #fff;
   overflow: hidden;
 }
-
 header {
   position: absolute;
   top: 0;
@@ -31,7 +28,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-header .logo {
+.logo {
   position: relative;
   max-width: 100px;
 }
@@ -49,7 +46,6 @@ header ul li a {
   margin-left: 40px;
   text-decoration: none;
 }
-
 .top-wrapper {
   position: relative;
   width: 100%;
@@ -57,25 +53,25 @@ header ul li a {
   align-items: center;
   justify-content: space-between;
 }
-.top-wrapper .textBox {
+.textBox {
   position: relative;
   max-width: 600px;
 }
-.top-wrapper .textBox h2 {
+.textBox h2 {
   color: #333;
   font-size: 3em;
   line-height: 1.3em;
   font-weight: 700;
 }
-.top-wrapper .textBox h2 span {
+.textBox h2 span {
   color: #017143;
   font-size: 1.2em;
   font-weight: 900;
 }
-.top-wrapper .textBox p {
+.textBox p {
   color: #333;
 }
-.top-wrapper .textBox a {
+.textBox a {
   display: inline-block;
   margin-top: 20px;
   padding: 8px 20px;
@@ -86,13 +82,13 @@ header ul li a {
   letter-spacing: 1px;
   text-decoration: none;
 }
-.top-wrapper .imgBox {
+.imgBox {
   display: flex;
   margin-top: 50px;
   position: relative;
   align-items: center;
 }
-.top-wrapper .imgBox img {
+.imgBox img {
   max-width: 340px;
   position: relative;
 }
@@ -106,7 +102,6 @@ header ul li a {
 .btn:hover {
   opacity: 1;
 }
-
 .sns {
   position: absolute;
   top: 50%;
@@ -127,7 +122,6 @@ header ul li a {
   display: inline-block;
   margin: 5px 0;
 }
-
 .blob {
   position: absolute;
   top: 0;
@@ -137,13 +131,11 @@ header ul li a {
   background: #017243;
   clip-path: circle(600px at right 800px);
 }
-
 .container {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
-
 .service-wrapper {
   height: 500px;
   background-color: white;
@@ -152,7 +144,6 @@ header ul li a {
   animation-duration: 8s;
   animation-iteration-count: infinite;
 }
-
 @keyframes example {
   0% {
     background-color: white;
@@ -175,27 +166,19 @@ header ul li a {
   padding-bottom: 30px;
   color: black;
 }
-
 .heading h2 {
   font-weight: bold;
 }
-
 .service {
   float: left;
   width: 25%;
   align-items: center;
   position: relative;
 }
-
 .service-icon {
   width: 100%;
   height: 40%;
 }
-
-.service-icon img {
-  width: 30%;
-}
-
 .service-icon p {
   position: absolute;
   top: 150px;
@@ -203,7 +186,6 @@ header ul li a {
   font-weight: bold;
   color: black;
 }
-
 .txt-contexts {
   width: 80%;
   display: inline-block;
@@ -212,17 +194,14 @@ header ul li a {
   font-size: 15px;
   color: black;
 }
-
 .service-icon img {
-  width: auto;
+  width: 100px;
   height: 150px;
   object-fit: cover;
 }
-
 .heading h3 {
   font-weight: normal;
 }
-
 .message-wrapper {
   border-bottom: 1px solid #eee;
   background-color: white;
@@ -230,20 +209,17 @@ header ul li a {
   text-align: center;
   width: 100%;
 }
-
 .message {
   padding: 15px 40px;
   background-color: #5dca88;
   cursor: pointer;
   box-shadow: 0 7px #1a7940;
 }
-
 .message:active {
   position: relative;
   top: 7px;
   box-shadow: none;
 }
-
 textarea {
   width: 400px;
   margin-top: 10px;
@@ -252,12 +228,10 @@ textarea {
   font-size: 18px;
   border: 1px solid #dee7ec;
 }
-
 .ask-submit {
   font-weight: bolder;
   color: #889eab;
 }
-
 .mover {
   width: 40px;
   height: 40px;
@@ -269,7 +243,6 @@ textarea {
   animation-delay: 2s;
   animation-iteration-count: infinite;
 }
-
 @keyframes example1 {
   0% {
     background-color: #c3f8e2;
@@ -297,14 +270,13 @@ textarea {
     top: 0px;
   }
 }
-
-.footer {
+footer {
   width: 100%;
   position: relative;
   height: auto;
   background-color: #162a10;
 }
-.footer .col {
+.col {
   width: 190px;
   height: auto;
   float: left;
@@ -313,7 +285,7 @@ textarea {
   -moz-box-sizing: border-box;
   padding: 0px 20px 20px 20px;
 }
-.footer .col h1 {
+.col h1 {
   margin: 0;
   padding: 0;
   font-family: inherit;
@@ -325,12 +297,12 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 0.25em;
 }
-.footer .col ul {
+.col ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.footer .col ul li {
+.col ul li {
   color: #999999;
   font-size: 14px;
   font-family: inherit;
@@ -345,8 +317,7 @@ textarea {
   display: inline-block;
   padding-right: 5px !important;
 }
-
-.footer .col ul li:hover {
+.col ul li:hover {
   color: #ffffff;
   transition: 0.1s;
   -webkit-transition: 0.1s;
